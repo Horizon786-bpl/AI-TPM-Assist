@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "rbks-mcp-servers": {
+      "disabled": false,
+      "command": "RBKS-MCP-Servers",
+      "timeout": 12000,
+      "transportType": "stdio",
+      "autoApprove": [
+        "jira_search_issues",
+        "jira_get_issue",
+        "confluence_get_page",
+        "confluence_search_pages"
+      ]
+    }
+  }
+}
